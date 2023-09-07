@@ -1,0 +1,35 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "name": "log_time",
+            "type": "file",
+            "path": "./files/"
+        },
+        {
+            "id": 2,
+            "name": "log_time_by_commands",
+            "type": "command",
+            "time": {
+                "repeat": false,
+                "year":2023,
+                "month":8,
+                "day": 8,
+                "hour": 10,
+                "minute": 30,
+                "second": 30
+            },
+            "state":{
+                "done":false,
+                "running": false,
+                "error": false
+            },
+            "command": {
+                "cmd": "touch",
+                "params": [
+                    "test.txt"
+                ]
+            }
+        }
+    ]
+}

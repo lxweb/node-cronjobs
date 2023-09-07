@@ -1,0 +1,24 @@
+{
+  "name": "node-cronjob",
+  "version": "1.0.0",
+  "description": "A Module to execute scheduled system commands as cronjobs with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lxweb/node-cronjobs.git"
+  },
+  "keywords": [
+    "node",
+    "cronjobs",
+    "schedule"
+  ],
+  "author": "Lisandro Fernandez (lxweb)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxweb/node-cronjobs/issues"
+  },
+  "homepage": "https://github.com/lxweb/node-cronjobs#readme"
+}
