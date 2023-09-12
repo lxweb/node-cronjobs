@@ -4,6 +4,9 @@
   "description": "A Module to execute scheduled system commands as cronjobs with Node",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/lxweb/node-cronjobs/issues"
   },
-  "homepage": "https://github.com/lxweb/node-cronjobs#readme"
+  "homepage": "https://github.com/lxweb/node-cronjobs#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
 }
