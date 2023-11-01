@@ -16,3 +16,24 @@ You can easily install Node Cron Jobs using npm:
 
 ```bash
 npm install node-cronjobs
+```
+
+# Usage
+## Here's a basic example of how to use Node Cron Jobs:
+```bash
+const CronJob = require('node-cronjobs');
+
+// Define a job function to be executed
+function myJob() {
+  console.log('Job executed at', new Date());
+}
+
+// Schedule the job to run every minute
+const job = new CronJob('* * * * *', myJob);
+
+// Start the job
+job.start();
+
+// To stop the job
+job.stop();
+```
